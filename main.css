@@ -1,0 +1,69 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+.arrow_left {
+  width: 50px;
+  margin-top: 50px;
+}
+.arrow_link:hover {
+  opacity: 0.5;
+}
+
+.gridCont {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  display: inline-grid;
+  grid-template-columns: 10em 20em 10em 10em 15fr 10fr;
+  grid-template-rows: 40em 40em 40em 40em;
+  align-items: stretch;
+}
+.kea_curr_text {
+  grid-column: 2;
+}
+.iframe_curriculum {
+  grid-column: 4;
+}
+.iframe_svg {
+  grid-column: 2;
+  grid-row: 2;
+}
+.svg_text {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row: 2;
+}
+
+.yfu_text {
+  grid-column: 2;
+  grid-row: 3;
+}
+.iframe_yuf {
+  grid-column: 4;
+  grid-row: 3;
+}
+.design-pic {
+  grid-column: 2;
+  grid-row: 4;
+}
+.design_text {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row: 4;
+}
+
+.logo_design {
+  width: 350px;
+  stroke: black;
+
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.logo_design:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}

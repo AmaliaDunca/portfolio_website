@@ -1,0 +1,46 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580.06929 580.06932">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+      }
+
+      .cls-2 {
+        font-size: 82px;
+        fill: #fff;
+        font-family: DancingScript-Regular, Dancing Script;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.04899em;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.00499em;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #333;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+        stroke-dasharray: 12.121 50.50418;
+        opacity: 0.5;
+        
+      }
+     
+
+    </style>
+  </defs>
+  <title>logo</title>
+  <circle class="cls-1" cx="290.03465" cy="290.03465" r="227.91109"/>
+  <text class="cls-2" transform="translate(86.64008 294.01936)"><tspan class="cls-3">A</tspan><tspan x="44.52588" y="0">malia </tspan><tspan class="cls-4" x="229.43213" y="0">D</tspan><tspan x="282.56885" y="0">unca</tspan></text>
+  <circle class="cls-5" cx="290.03465" cy="290.03466" r="289.03465" >
+  <animateTransform attributeName = "transform"
+  type = "rotate"
+  from = "0, 300, 300"
+  to = "360, 300, 300"
+  dur= "10s"
+  repeatCount= "infinite"/>
+  </circle>
+</svg>

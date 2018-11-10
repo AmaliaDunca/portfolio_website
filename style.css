@@ -1,0 +1,190 @@
+header {
+  margin: 0px;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.logo {
+  margin: 20px;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  padding: 0;
+}
+/*navigation */
+
+nav {
+  position: absolute;
+  mask-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 25%,
+    #ffffff 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding-left: 500px;
+}
+
+nav ul {
+  text-align: center;
+  padding-top: 0px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.2) 25%,
+    rgba(255, 255, 255, 0.2) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+nav ul li {
+  margin-left: 100px;
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18px;
+  text-transform: uppercase;
+  color: rgba(0, 35, 122, 0.5);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 35, 122, 0.7);
+}
+
+#background {
+  padding-top: 0px;
+  background-image: url("imag/backGround.png");
+  height: 40em; /* You must set a specified height */
+  width: 100vw;
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.arrow {
+  width: 100px;
+  text-align: center;
+  padding-left: 32em;
+}
+header {
+  padding: 0px;
+  margin: 0px;
+  height: 50em;
+}
+
+/*#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+} */
+
+/*Scroll event*/
+.hideSvg {
+  display: none;
+}
+
+.continerGrid {
+  display: inline-grid;
+  grid-template-columns: 15em 1fr 10em 1fr 15em;
+  grid-template-rows: 40em 40em 40em 40em;
+  align-items: stretch;
+}
+
+.descDev {
+  grid-column: 2;
+}
+.moreButton {
+  grid-column: 2;
+  justify-self: end;
+  width: 50px;
+}
+.moreButton:hover {
+  opacity: 0.5;
+}
+
+.devPic {
+  grid-column: 4;
+
+  stroke-dasharray: 800;
+  stroke-dashoffset: 0;
+
+  animation: line 3s linear infinite;
+  /*animation-delay: 3s; */
+}
+@keyframes line {
+  from {
+    stroke-dashoffset: 800;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.descUxUi {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.UPic {
+  stroke-dasharray: 1700;
+  /* stroke-dashoffset: 0; */
+  grid-column: 2;
+  grid-row: 2;
+  animation: ste 4s linear 3s infinite;
+  animation-delay: 5s;
+}
+@keyframes ste {
+  from {
+    stroke-dashoffset: 1800;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.arrow2 {
+  width: 100px;
+  text-align: center;
+  padding-left: 100px;
+  margin-top: 500px;
+}
+.arrow3 {
+  width: 100px;
+  text-align: center;
+  padding-left: 100px;
+  margin-top: 500px;
+}
+.about-me {
+  grid-row: 3;
+  grid-column: 1;
+}
+.me-pic {
+  border-radius: 0%;
+}
+.about-text {
+  grid-row: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  text-align: justify;
+  justify-self: start;
+}
+
+footer {
+  grid-row: 4;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+}

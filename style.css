@@ -119,15 +119,15 @@ header {
 .devPic {
   grid-column: 4;
 
-  stroke-dasharray: 800;
-  stroke-dashoffset: 0;
+  stroke-dasharray: 150;
+  /*stroke-dashoffset: 1; */
 
-  animation: line 3s linear infinite;
+  animation: line 4s linear infinite;
   /*animation-delay: 3s; */
 }
 @keyframes line {
   from {
-    stroke-dashoffset: 800;
+    stroke-dashoffset: 150;
   }
   to {
     stroke-dashoffset: 0;
@@ -139,8 +139,13 @@ header {
   grid-row: 2;
 }
 
+.cls-1 {
+  fill: #fff;
+  stroke: #000;
+  stroke-miterlimit: 20;
+}
 .UPic {
-  stroke-dasharray: 1700;
+  stroke-dasharray: 500;
   /* stroke-dashoffset: 0; */
   grid-column: 2;
   grid-row: 2;
@@ -149,7 +154,7 @@ header {
 }
 @keyframes ste {
   from {
-    stroke-dashoffset: 1800;
+    stroke-dashoffset: 500;
   }
   to {
     stroke-dashoffset: 0;
